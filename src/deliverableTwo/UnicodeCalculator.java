@@ -16,7 +16,10 @@ public class UnicodeCalculator {
 
 		/*
 		 * nextLine() is used instead of next in case either string is a multi-word
-		 * string since the assignment did not specify
+		 * string because the assignment did not specify. It said convert to the unicode
+		 * character for each letter in each word, but did not state whether or not this
+		 * means each word in each string, or each of only two words, one for the first
+		 * string and one for the second.
 		 */
 
 		System.out.println("Pleae enter the second string");
