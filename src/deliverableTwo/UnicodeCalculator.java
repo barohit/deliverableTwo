@@ -15,8 +15,8 @@ public class UnicodeCalculator {
 		string1 = scnr.nextLine();
 
 		/*
-		 * nextLine() is used instead of next in case the string is a multi-word string
-		 * since the assignment did not specify
+		 * nextLine() is used instead of next in case either string is a multi-word
+		 * string since the assignment did not specify
 		 */
 
 		System.out.println("Pleae enter the second string");
@@ -29,11 +29,13 @@ public class UnicodeCalculator {
 
 		for (int i = 0; i < string1.length(); i++) {
 
+			System.out.println(string1.charAt(i) + ": " + (int) string1.charAt(i));
 			totalString1 += (int) string1.charAt(i);
 		}
 
 		for (int i = 0; i < string2.length(); i++) {
 
+			System.out.println(string2.charAt(i) + ": " + (int) string2.charAt(i));
 			totalString2 += (int) string2.charAt(i);
 		}
 
