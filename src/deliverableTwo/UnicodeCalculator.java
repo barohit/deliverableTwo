@@ -12,7 +12,12 @@ public class UnicodeCalculator {
 		String string2 = "";
 
 		System.out.println("Please enter the first string");
-		string1 = scnr.nextLine(); // nextLine() is used instead of next in case the string is a multi-word string
+		string1 = scnr.nextLine();
+
+		/*
+		 * nextLine() is used instead of next in case the string is a multi-word string
+		 * since the assignment did not specify
+		 */
 
 		System.out.println("Pleae enter the second string");
 		string2 = scnr.nextLine();
