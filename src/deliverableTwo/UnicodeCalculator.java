@@ -19,20 +19,20 @@ public class UnicodeCalculator {
 
 		scnr.close();
 
-		int total1 = 0;
-		int total2 = 0;
+		int totalString1 = 0;
+		int totalString2 = 0;
 
 		for (int i = 0; i < string1.length(); i++) {
 
-			total1 += (int) string1.charAt(i);
+			totalString1 += (int) string1.charAt(i);
 		}
 
 		for (int i = 0; i < string2.length(); i++) {
 
-			total2 += (int) string2.charAt(i);
+			totalString2 += (int) string2.charAt(i);
 		}
 
-		System.out.println(Math.abs(total1 - total2));
+		System.out.println(Math.abs(totalString1 - totalString2));
 	}
 
 }
