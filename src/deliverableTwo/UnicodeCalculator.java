@@ -32,9 +32,6 @@ public class UnicodeCalculator {
 			total2 += (int) string2.charAt(i);
 		}
 
-		System.out.println(total1); // delete later
-		System.out.println(total2); // delete later
-
 		System.out.println(Math.abs(total1 - total2));
 	}
 
